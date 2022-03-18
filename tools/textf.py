@@ -183,7 +183,7 @@ def debug_mode(argc, argv):
         return
 
 
-
+# TODO: May rename file to "tables.py" or something for more clarity
 if __name__ == "__main__":
     argv = sys.argv[1:] # disregard file itself
     argc = len(argv)
