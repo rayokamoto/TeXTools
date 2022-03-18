@@ -11,6 +11,8 @@
 - Preamble (work in progress)
 
 ### Examples
+These are by no means complete and lots more can be added.
+- Equations
 - Matrices
 
 ### Coming soon
