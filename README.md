@@ -1,10 +1,17 @@
 # TeXTools — A collection of TeX tools and utilities
 
-### Currently available tools
+- Tools: scripts for making life easier
+- Templates: Copy and paste snippets to make life easier
+- Examples: Again, copy and paste stuff to make life easier
+
+### Tools
 - TeXTableFormat — Convert Excel tables to TeX tables (Version 0.2.0)
 
-### Currently available templates
+### Templates
 - Preamble (work in progress)
+
+### Examples
+- Matrices
 
 ### Coming soon
 - NumPy arrays to TeX

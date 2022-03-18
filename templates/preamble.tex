@@ -1,9 +1,34 @@
 % Premable template
+
 % Pick and choose from the options as you wish. This is only a boilerplate.
+% Copy-pasting all the contents from this file into your own project is discouraged
+% as some packages may interfere with others. 
 
-\usepackage{amsmath, amsfonts, amssymb, amsthm}
+% Maths-related
+\usepackage{amsmath} % Things like equation environment
+\usepackage{amsfonts} % More math fonts (e.g. \mathbb{})
+\usepackage{amssymb} % Extended symbols
+\usepackage{amsthm} % For theorems
+\usepackage{bm} % bold math fonts
 
-\usepackage{physics}
+\usepackage{physics} % Useful for things like \dv 
+\usepackage{mhchem} % Chemistry-related things
+
+% Typesetting/formatting
+\usepackage{float} % float tables to center
+\usepackage[margin=2.5cm]{geometry} % margin layout
+\usepackage{listings} % Typeset source code, code blocks
+\usepackage{parskip} % needed for un-doing paragraph indentation
+\usepackage{verbatim} % for paragraphs
+
+
+% Tables
+\usepackage{makecell} % for forcing newline breaks in tables, use of \thead{}, etc.
+
+% Graphics
+\usepackage{graphicx} % images
+\usepackage{tikz}
+\usepackage{xcolor}
 
 % Theorem styles
 \theoremstyle{plain}
@@ -16,3 +41,8 @@
 \newtheorem{example}{Example}[section]
 \newtheorem{exercise}{Exercise}[section]
 \newtheorem{question}{Question}[section]
+
+
+% Custom commands
+\newcommand{\sectionSpace}{\vspace{2em}} % Custom section break
+\newcommand{\subsectionSpace}{\vspace{0.5em}}
