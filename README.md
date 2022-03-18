@@ -3,6 +3,9 @@
 ### Currently available tools
 - TeXTableFormat — Convert Excel tables to TeX tables (Version 0.2.0)
 
+### Currently available templates
+- Preamble (work in progress)
+
 ### Coming soon
 - NumPy arrays to TeX
 
